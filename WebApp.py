@@ -17,7 +17,7 @@ Detect if some has diabetes using machine learning and python !
 """)
 
 # Open and display an Image
-image = Image.open('C:/Users/Eddy/Documents/GitHub/ML_Diabetes/machineLearning.png')
+image = Image.open('./machineLearning.png')
 st.image(image, caption="Machine Learning With Python", use_column_width=True)
 
 # Get the Data
