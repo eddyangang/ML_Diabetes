@@ -21,7 +21,7 @@ image = Image.open('./machineLearning.png')
 st.image(image, caption="Machine Learning With Python", use_column_width=True)
 
 # Get the Data
-df = pd.read_csv('C:/Users/Eddy/Documents/GitHub/ML_Diabetes/diabetes_data.csv', sep=",")
+df = pd.read_csv('./diabetes_data.csv', sep=",")
 
 # Set a sub header
 st.subheader("Data Information:")
